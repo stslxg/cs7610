@@ -1,0 +1,16 @@
+Name: Xuangui Huang
+Usage: prj1 -h <hostfile> -c <count> [-d <drop rate> -t <delay> -o <timeout> -l <try limit> -v]
+-h <hostfile>
+path to the file containing all the host names
+-c <count>
+number of data messages we are going to send
+-d <droprate>
+the probability of dropping any messages to other hosts
+-t <delay>
+the delay of sending a message to other hosts
+-v
+open verbose mode, will output much more infos
+-o <timeout>
+timeout before resending DataMessage and SeqMessage, minimum is 500ms
+-l <try limit>
+the maximum number of times of resending DataMessage and SeqMessage

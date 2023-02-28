@@ -1,0 +1,12 @@
+Name: Xuangui Huang
+Usage: prj2 -h <hostfile> -t <test case> [-p <progress timer> -r <vp timer> -v]
+-h <hostfile>
+path to the file containing all the host names
+-t <test case>
+the test case number
+-p <progress timer>
+the initial progress timer value in ms, default is 1000
+-r <vp timer>
+the time between sending VC_Proof in ms, default is 500
+-v
+open verbose mode, will output much more infos
